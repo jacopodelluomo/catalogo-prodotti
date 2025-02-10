@@ -9,10 +9,10 @@ body{
   padding: 10px;
 }
 .contenitore{
-  width: 60%;
+  width: 90%;
   margin:auto;
+  margin-top:2%;
   /* background-color: lightgrey; */
-
   /* background-color: orange; */
   text-align: center;
 }
@@ -65,6 +65,10 @@ body{
   display: inline-block;
   margin: 5px;
   padding:5px;
+  position: fixed;
+  right: 5%;
+  top:0;
+  z-index:2;
 }
 .s-menù{
   width: 15%;
@@ -120,4 +124,9 @@ body{
   border:1px solid black;
   display: none;
   z-index: 1;
+}
+.img-footer{
+width:2000px;
+height: 200px;
+
 }
